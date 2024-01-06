@@ -1,14 +1,11 @@
 'use client'
-import Header from '@/components/Header/header'
-import Sidebar from '@/components/Sidebar/sidebar'
+import Dashboard from '../layouts/Dashboard'
 
 
 export default function Home() {
   return (
     <main>
-      < Header />
-      < Sidebar />
-      Test
+      <Dashboard />
     </main>
   )
 }
