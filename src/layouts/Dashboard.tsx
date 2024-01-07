@@ -144,7 +144,7 @@ export default function Dashboard() {
             <Grid>
               {/* Recent Orders */}
               <Grid item xl={12}>
-                <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
+                <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }} style={{ height: 800 }}>
                   <TemporalFlowDisplay />
                 </Paper>
               </Grid>
